@@ -1,6 +1,9 @@
 import numpy as np
 import cv2
 
+#opens a webcam gui 
+#hit space to take a picture
+#opens pictures taken after program exit
 cap = cv2.VideoCapture(0)
 
 image_counter = 1
